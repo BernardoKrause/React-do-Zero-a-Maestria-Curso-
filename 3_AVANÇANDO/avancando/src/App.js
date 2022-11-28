@@ -1,6 +1,7 @@
 import './App.css';
 
 import Goats from './assets/goats.jpg'
+import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         <img width="600px" src={Goats} alt="Carneiros" />
       </div>
       <ManageData />
+      <ListRender />
     </div>
   );
 }

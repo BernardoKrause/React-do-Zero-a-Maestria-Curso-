@@ -8,6 +8,7 @@ import ListRender from './components/ListRender';
 import ManageData from './components/ManageData';
 import ShowUserName from './components/ShowUserName';
 import Fragment from './components/Fragment';
+import Container from './components/Container';
 
 function App() {
   //const name = "Joaquim"
@@ -49,6 +50,10 @@ function App() {
       ))}
       {/* fragment */}
       <Fragment propFragment="teste" />
+      {/* children */}
+      <Container myValue="testing"> 
+        <p>Este é o conteúdo</p>
+      </Container>
     </div>
   );
 }

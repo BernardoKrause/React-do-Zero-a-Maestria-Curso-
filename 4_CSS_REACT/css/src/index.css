@@ -8,3 +8,15 @@ body {
 h1 {
   color: rgb(121, 20, 20);
 }
+
+.red-title {
+  background-color: #000;
+  color: red;
+  padding: 16px;
+  border: 5px solid red;
+}
+
+title {
+  background-color: #000;
+  color: #fff;
+}

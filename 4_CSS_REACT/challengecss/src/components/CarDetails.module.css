@@ -1,0 +1,18 @@
+* {
+    background-color: #121214;
+    color: #f1f2f2;
+    list-style: none;
+}
+
+.my_car {
+    padding: 16px;
+    border: 2px solid purple;
+    border-radius: 12px;
+    width: 200px;
+}
+
+
+h2 {
+    color: #1a5757;
+}
+

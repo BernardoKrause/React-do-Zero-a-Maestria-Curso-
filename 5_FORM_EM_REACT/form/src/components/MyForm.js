@@ -28,6 +28,7 @@ const MyForm = ({user}) => {
     setName("");
     setEmail("");
     setBio("");
+    setRole("");
   }
 
   return (

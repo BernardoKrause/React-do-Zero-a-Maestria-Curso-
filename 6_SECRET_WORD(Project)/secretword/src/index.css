@@ -1,0 +1,20 @@
+:root {
+    --dark: #121214;
+    --gradient: linear-gradient(0deg, rgba(18,18,20,1) 11%, rgb(99, 11, 21) 57%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--gradient);
+    color: #fff;
+}

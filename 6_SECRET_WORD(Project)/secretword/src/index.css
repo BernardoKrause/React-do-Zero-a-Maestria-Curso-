@@ -15,6 +15,6 @@ html, body {
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background: var(--gradient);
+    background: var(--dark);
     color: #fff;
 }

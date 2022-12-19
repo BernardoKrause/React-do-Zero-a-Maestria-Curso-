@@ -4,3 +4,30 @@
     align-items: center;
     text-align: center;
 }
+
+h1 {
+    font-size: 3.5em;
+    padding: 24px;
+}
+
+p {
+    margin-bottom: 2em;
+    padding: 24px;
+}
+
+button {
+    border: none;
+    padding: 12px;
+    border-radius: 24px;
+    border: 2px solid cyan;
+    background-color: #1b191f;
+    color: rgb(56, 190, 190);
+    cursor: pointer;
+    transition: .7s;
+}
+
+
+button:hover {
+    background-color: #0c080c;
+    border: 2px solid #0c080c;
+}

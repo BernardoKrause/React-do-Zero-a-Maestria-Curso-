@@ -141,7 +141,7 @@ function App() {
       {gameStage === 'start' && <StartScreen startGame={startGame} />}
       {gameStage === 'game' && (
       <Game 
-        verifyLetter={verifyLetter} 
+        verifyLetter={verifyLetter}
         pickedWord={pickedWord} 
         pickedCategory={pickedCategory} 
         letters={letters}
